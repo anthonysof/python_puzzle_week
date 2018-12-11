@@ -63,6 +63,7 @@ def main():
 	for row in board:
 		print row, "\n"
 
+	print "Non threatened Queens: "
 	for queen in queens:
 		checkHorizontal(queen, board)
 		checkVertical(queen, board)
