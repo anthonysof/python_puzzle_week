@@ -50,8 +50,8 @@ def main():
 		iss.goto(lon, lat)
 
 
-		print(lon)
-		print(lat)
+		#print(lon)
+		#print(lat)
 		#turtle.update_idletasks()
 		turtle.update()
 		time.sleep(5)
